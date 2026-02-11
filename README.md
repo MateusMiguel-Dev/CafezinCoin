@@ -1,16 +1,49 @@
-# React + Vite
+# CafezinCoin
+O projeto CafezinCoin é voltado a apresentar uma nova moeda digital, por meio de uma Landing Page (LP). A LP foi criada visando promover a divulgação da criptomoeda, simulando a comunicação de uma moeda voltada ao uso cotidiano, destacando simplicidade, praticidade e proximidade com os possíveis clientes e leads.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-- Visão Geral do Projeto
+O foco principal está na construção de uma interface responsiva, organizada e visualmente consistente. O site é composto por seções informativas que explicam o conceito da CafezinCoin, seum funcionamento e a participação da comunidade. Toda a aplicação foi estruturada em componentes, com uma estilização feita apenas em CSS. Foi feita a tentativa de utilizar Tailwind mas por problemas técnicos não foi possível adicionar ao projeto.
 
-Currently, two official plugins are available:
+-- Principais características:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Layout responsivo (desktop e mobile).
 
-## React Compiler
+Estrutura baseada em componentes React.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Uso de ícones com a biblioteca importada React-Icons.
 
-## Expanding the ESLint configuration
+Estilização manual sem frameworks CSS (Tailwind).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Adicionbadas transições para melhorar a experiência do usuário.
+
+-- Visualização do Protótipo do Projeto
+
+Para visualizar o protótipo do projeto, acesse o link do Figma a seguir: https://www.figma.com/design/FeZdziENGWik7XbB4yKRHV/CafezinCoin?node-id=0-1&t=B0G0qMwGELOutw1S-1
+
+Caso o Figma não libere, só me comunicar que libero a visualização
+
+-- Organização e Estruturação do Projeto:
+
+Para uma melhor organização, o projeto foi dividido e trabalhado em 6 partes separadamente, sendo elas Cabeçalho (Header), Hero (Seção Principal), About (Sobre), HowItWorks(Como funciona), Community (Comunidade) e Footer (Rodapé).
+No âmbito da programação, os componentes foram adicionados em pastas separadas junto com seus respectivos .css, buscando maior organização.
+
+-- Como executar
+
+Clone esse repositório: git clone https://github.com/MateusMiguel-Dev/CafezinCoin.git
+
+Acesse o projeto: cd CafezinCoin
+
+Instale todas as dependências: npm install
+
+Execute o projeto: npm run dev
+
+-- Observações Importantes:
+
+O projeto não contém backend
+
+O projeto não faz uso de APIs ou conexão com BlockChain
+
+Todo o conteúdo é fictício e não representa nenhum produto real.
+
+Quaisquer dúvidas, entrar em contato comigo.
+
