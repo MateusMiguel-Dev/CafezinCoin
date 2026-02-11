@@ -1,7 +1,9 @@
 # CafezinCoin
+
 O projeto CafezinCoin é voltado a apresentar uma nova moeda digital, por meio de uma Landing Page (LP). A LP foi criada visando promover a divulgação da criptomoeda, simulando a comunicação de uma moeda voltada ao uso cotidiano, destacando simplicidade, praticidade e proximidade com os possíveis clientes e leads.
 
 -- Visão Geral do Projeto
+
 O foco principal está na construção de uma interface responsiva, organizada e visualmente consistente. O site é composto por seções informativas que explicam o conceito da CafezinCoin, seum funcionamento e a participação da comunidade. Toda a aplicação foi estruturada em componentes, com uma estilização feita apenas em CSS. Foi feita a tentativa de utilizar Tailwind mas por problemas técnicos não foi possível adicionar ao projeto.
 
 -- Principais características:
