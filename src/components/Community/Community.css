@@ -1,0 +1,117 @@
+.community {
+  width: 100%;
+  background: #1d0000;
+}
+.community-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 32px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.community-container h2 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.community-container h2 span {
+  color: #d49b6a;
+}
+.community-container hr {
+  width: 100%;
+  max-width: 700px;
+  opacity: 0.1;
+  margin-bottom: 24px;
+}
+.community-stats {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+.stat {
+  background-color: #331919;
+  padding: 40px 30px;
+  padding-top: 30px;
+  border-radius: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  text-align: left;
+}
+.stat svg {
+  flex-shrink: 0;
+  color: #ffffff;
+  margin-top: 6px;
+}
+.stat-text {
+  display: flex;
+  flex-direction: column;
+}
+.stat-text h3 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1;
+  color: #ffffff;
+}
+.stat-text p {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #cfcfcf;
+  max-width: 180px;
+}
+.community-btn {
+  background: #dba156;
+  color: #1a0707;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 28px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+.community-btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+@media (max-width: 768px) {
+  .community-container {
+    padding: 20px 16px 40px;
+  }
+  .community-container h2 {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  .community-stats {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .stat {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px 20px;
+    padding-top: 40px;
+  }
+  .stat svg {
+    margin-top: 0;
+  }
+  .stat-text h3 {
+    font-size: 28px;
+  }
+  .stat-text p {
+    max-width: none;
+  }
+  .community-btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}
